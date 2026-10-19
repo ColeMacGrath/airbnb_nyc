@@ -1,0 +1,44 @@
+artifact_path: file:///Users/moisescordova/Desktop/Actividad5/mlruns/models/m-de8e0a99c3b8478dbd010a8eb9ae5310/artifacts
+flavors:
+  python_function:
+    code: code
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.8
+  sklearn:
+    code: code
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.17.1
+model_id: m-de8e0a99c3b8478dbd010a8eb9ae5310
+model_size_bytes: 32783
+model_uuid: m-de8e0a99c3b8478dbd010a8eb9ae5310
+prompts: null
+run_id: 3eb8640d54b3426cbf0f1ac49fc7a275
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "string", "name": "neighbourhood_group", "required": true}, {"type":
+    "string", "name": "neighbourhood", "required": true}, {"type": "string", "name":
+    "room_type", "required": true}, {"type": "double", "name": "latitude", "required":
+    true}, {"type": "double", "name": "longitude", "required": true}, {"type": "long",
+    "name": "minimum_nights", "required": true}, {"type": "long", "name": "number_of_reviews",
+    "required": true}, {"type": "double", "name": "reviews_per_month", "required":
+    true}, {"type": "long", "name": "calculated_host_listings_count", "required":
+    true}, {"type": "long", "name": "availability_365", "required": true}, {"type":
+    "long", "name": "days_since_last_review", "required": true}, {"type": "long",
+    "name": "has_reviews", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-10-19 05:17:57.149289'

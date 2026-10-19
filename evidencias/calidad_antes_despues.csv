@@ -1,0 +1,10 @@
+,antes,despues
+filas,48895,48644
+columnas,16,13
+nulos_totales,20141,0
+duplicados_exactos,0,0
+duplicados_id,0,0
+duplicados_logicos,1,0
+precio_cero,11,0
+precio_fuera_rango,250,0
+noches_mayor_365,14,0
